@@ -1,0 +1,60 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@import "./content.css";
+@import "./top-menu.css";
+
+.slider-active {
+	max-width: 100%;
+}
+
+.main {
+	height: 900px;
+	width: 1440px;
+	background-image: url("../images/ironman16-9.jpg");
+	margin: auto;
+	display: flex;
+}
+
+.pasport {
+	font-family: 'Teko', sans-serif;
+	height: 720px; 
+	width: 1380px;
+	background: linear-gradient(to bottom right,  rgb(26, 25, 31), rgb(52, 52, 64));
+	margin: auto;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.front-image--iron-man {
+	height: 720px;
+    width: 335px;
+    background-image: url(../images/ironman_PNG10.png);
+    background-size: cover;
+    position: absolute;
+    left: 323px;
+    top: 17px;
+    z-index: 1;
+}
+
+.front-image--spider-man {
+	height: 720px;
+    width: 246px;
+    background-image: url(../images/spiderman-front.png);
+    background-size: cover;
+    position: absolute;
+    left: 377px;
+    top: 17px;
+    z-index: 1;
+}
+
+.front-image--cap-front {
+	height: 720px;
+    width: 346px;
+    background-image: url(../images/cap-front.png);
+    background-size: cover;
+    position: absolute;
+    left: 255px;
+    top: 17px;
+    z-index: 1;
+}

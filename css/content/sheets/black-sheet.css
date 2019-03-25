@@ -1,0 +1,52 @@
+@import "./button/button.css";
+@import "./black-sheet-text.css";
+
+.black--background-img__iron-man {
+	display: flex;
+	width: 100%;
+	background: linear-gradient(to bottom right, rgba(52, 52, 64, 0.9), rgba(26, 25, 31, 1)), url("../../../images/ironman-front-cut.jpg");
+	background-size: cover;
+}
+.black--background-img__spider-man {
+	display: flex;
+	width: 100%;
+	background: linear-gradient(to bottom right, rgba(52, 52, 64, 0.9), rgba(26, 25, 31, 1)), url("../../../images/spiderman.jpg");
+	background-size: cover;
+}
+.black--background-img__cap {
+	display: flex;
+	width: 100%;
+	background: linear-gradient(to bottom right, rgba(52, 52, 64, 0.9), rgba(26, 25, 31, 1)), url("../../../images/cap.jpg");
+	background-size: cover;
+}
+
+.black-wrap {
+	height: 80%;
+	width: 75%;
+	margin: auto;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.black-wrap__sign {
+	display: flex;
+	align-items: center;
+	height: 9px;
+}
+.sign--square {
+	height: 8px;
+	width: 8px;
+	background-color: rgb(228, 65, 40);
+}
+.sign--arrow {
+	transform: rotate(90deg);
+	color: rgb(247, 247, 251);
+	font-size: 25px;
+	margin-right: 9px;
+}
+
+.triangle {
+	font-size: 130px;
+}
